@@ -332,7 +332,7 @@ function updateTodoItems() {
 
   if (!data.length) {
     var liElement = document.createElement('li');
-    liElement.innerText = "Nothing todo...";
+    liElement.textContent = "Nothing todo...";
     todosEl.appendChild(liElement);
   } else {
 
@@ -350,8 +350,8 @@ function updateTodoItems() {
         iElement.className = "fa fa-circle-o";
       }
 
-      liElement.appendChild(iElement);
-      liElement.innerText = todo.task;
+			liElement.innerHTML = todo.task;
+			liElement.prepend(iElement);
 
       todosEl.appendChild(liElement);
     }

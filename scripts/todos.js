@@ -52,7 +52,7 @@ function updateRemoveBtn() {
 	  return todo.done === true;
 	});
 
-	completedEl.innerText = completedTodos.length;
+	completedEl.textContent = completedTodos.length;
 
 	if (completedTodos.length) {
 		completedEl.parentElement.disabled = false;
