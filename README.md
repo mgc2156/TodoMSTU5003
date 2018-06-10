@@ -15,7 +15,7 @@ https://youtu.be/QOXhN90d9Mk?list=PLn93-yl6k7zUkSFNI8MQqmIVn017z8vKO
 
 Since you want to copy MY repository, once you have the Github GUI Client installed - you can do so with one click of a button. Just click on the Clone or download option, then **Open in Desktop** and that will automatically open it up in the Git GUI. (See Below)
 
-![Clone thorugh Github](https://i.imgur.com/onzsWMy.png)
+![Clone through Github](https://i.imgur.com/onzsWMy.png)
 
 Keep in mind that since you are cloning my repository, you will only be able to commit changes to your local computer. You will not be able to _sync_ or _push_ changes to my Github repository - for obvious security reasons. (You wouldn't want just anyone to change YOUR code.)
 
